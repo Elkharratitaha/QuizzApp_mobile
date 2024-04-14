@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F2E6FF">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="295dp"
+        android:layout_marginLeft="40px"
+        android:id="@+id/logoId"/>
+
+    <EditText
+        android:id="@+id/ETEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:hint="Email"
+        android:layout_margin="25px"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/ETPassword"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:layout_margin="25px">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnSignIn"
+        android:text="sign in"
+        android:layout_margin="15px">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to register click here"
+        android:layout_gravity="center"
+        android:id="@+id/TvRegister"
+        android:textSize="20dp"
+        android:layout_margin="20px"
+        android:textColor="#4A148C">
+    </TextView>
+</LinearLayout>

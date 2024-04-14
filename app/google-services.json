@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437512898730",
+    "project_id": "quizzappelkharrati",
+    "storage_bucket": "quizzappelkharrati.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437512898730:android:cdd2799b1098ea468228d3",
+        "android_client_info": {
+          "package_name": "com.example.quizzapp_elkharrati"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIgWuAwUs-8fzs4UTUsDNwPxeY8Z2ELDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
